@@ -1,0 +1,34 @@
+CAR 
+-------
+create tabLe car1(cname varchar(30),miLeage varchar(10),seat varchar(1),cost varchar(10),type varchar(10),primary key(cname));
+insert into car1 vaLues('Honda City','25.6 kmpL','5','13.09 L','Sedan');
+insert into car1 vaLues('Honda WR-V','17.5 kmpL','7','8.95 L','S.U.V.');
+insert into car1 vaLues('Hyundai Elantra','22.5 kmpL','5','15.04 L','Sedan');
+insert into car1 vaLues('Hyundai Verna’,'24.8 kmpL','5','9.5 L','Sedan');
+insert into car1 vaLues('Maruti Suzuki Alto k10','24.07 kmpL','4','3.41 L','Hatchback');
+insert into car1 vaLues('Maruti Suzuki Baleno','27.39 kmpL','4','8.5 L','Hatchback');
+insert into car1 vaLues('Maruti Suzuki Swift','28.4 kmpL','4','8.29 L','Hatchback');
+insert into car1 vaLues('Maruti Suzuki Vitara Brezza','24.29 kmpL','7','9.85 L','S.U.V.');
+insert into car1 vaLues('Skoda Octavia','16.7 kmpL','5','16.03 L','Sedan');
+insert into car1 vaLues('Toyota Innova Crysta','13.68 kmpL','7','15.53 L','S.U.V.');
+
+EMPLOYEE
+----------------
+create table employeedb(empid varchar(1),ename varchar(20),salary varchar(6),post varchar(15),primary key(empid));
+insert into employeedb values('1','Kushagra','62000','Salesperson');
+insert into employeedb values('2','Suyash','70000','Salesperson');
+insert into employeedb values('3','Aditya','57000','Salesperson');
+insert into employeedb values('4','Satyaveer','95000','Manager');
+insert into employeedb values('5,'Vignesh','95000','Manager');
+
+REGISTERED
+------------------
+
+
+SALES
+---------
+create table sales(car_name varchar(30), units_sold varchar(4), primary key(car_name));
+
+TRACK / BOOK
+---------------------
+create table track(book_id varchar (10), car_name varchar(30), status varchar(10), primary key(book_id));
